@@ -105,6 +105,7 @@ def Domain_filter(domains):
 
     return unique_valid_domains
 
+@profile
 def gen():
     netG = Generator()
     netG.load_state_dict(torch.load('./khaos_resnet.trc'))
