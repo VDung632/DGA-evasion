@@ -2,7 +2,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+pkdga/
+results/
+imgs/
+exp*.txt
+*.csv
 # C extensions
 *.so
 
