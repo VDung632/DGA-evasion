@@ -1,6 +1,6 @@
 # SẢN PHẨM ĐỒ ÁN CUỐI KỲ MÔN NT230.O21.ANTT
 
-## Code trong repo này sẽ huấn luyện mạng WGAN-GP và tạo ra tên miền giả như trong bài báo "Khaos: An adversarial neural network dga with high anti-detection ability"
+## Code trong repo này sẽ huấn luyện mạng WGAN-GP và tạo ra các tên miền giả
 
 Để huấn luyện mô hình, trước tiên cần trích xuất lấy tên miền của 1 tên miền đầy đủ. VD: google.com -> google
 Sau đó lưu kết quả vào trong file benign.txt
