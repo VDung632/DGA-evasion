@@ -48,6 +48,6 @@ Sau khi tạo xong, các tên miền sẽ được lưu trong file khaos_origina
 
 ## Disclaimer
 
-Phạm vi của repo chỉ giới hạn trong đồ án môn học đại học, sẽ có thể có 1 số thiếu sót trong nguồn tham khảo.
+Phạm vi của repo chỉ giới hạn trong đồ án môn học đại học và sẽ có thể có 1 số thiếu sót trong nguồn tham khảo.
 
 Tác giả sẽ không chịu trách nhiệm cho bất kỳ hành vi nào sử dụng các đoạn mã trong repo này vào bất kỳ mục đích gì.
