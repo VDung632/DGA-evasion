@@ -46,7 +46,7 @@ Sau khi tạo xong, các tên miền sẽ được lưu trong file khaos_origina
 
 [3] https://github.com/abcdefdf/PKDGA
 
-## Disclaimer
+# Disclaimer
 
 Phạm vi của repo chỉ giới hạn trong đồ án môn học đại học và sẽ có thể có 1 số thiếu sót trong nguồn tham khảo.
 
