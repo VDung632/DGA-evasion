@@ -2,6 +2,13 @@
 
 ## Code trong repo này sẽ huấn luyện mạng WGAN-GP và tạo ra các tên miền giả
 
+### Môi trường có thể chạy được code
+ - python 3.7.0
+ - Windows 11
+ - CPU: 12th Gen Intel(R) Core(TM) i7-12700H (20 CPUs), ~2.7GHz
+ - RAM: 16GB
+ - GPU: NVIADIA GeForce RTX 3050
+
 Để huấn luyện mô hình, trước tiên cần trích xuất lấy tên miền của 1 tên miền đầy đủ. VD: google.com -> google
 Sau đó lưu kết quả vào trong file benign.txt
 
@@ -11,7 +18,7 @@ Sau đó lưu kết quả vào trong file benign.txt
 python khaos/extract_sld.py BENIGN_FULL_DOMAIN_NAME OUTPUT_FILE
 ```
 
-## #Huấn luyện mạng WGAN-GP với detector là LSTM-based model
+### Huấn luyện mạng WGAN-GP với detector là LSTM-based model
 ```bash
 python khaos/gan_language.py
 ```
