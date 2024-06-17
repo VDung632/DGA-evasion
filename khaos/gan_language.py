@@ -18,7 +18,7 @@ import lstm.lstm_float as lstm
 import sklearn.metrics as metrics
 # import pkdga.exp1
 
-sys.path.append(os.getcwd())
+# sys.path.append(os.getcwd())
 torch.manual_seed(1)
 # use_cuda = torch.cuda.is_available()
 use_cuda = False
