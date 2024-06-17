@@ -170,3 +170,4 @@ RF/*.txt
 *.png
 static/*.txt
 graph/*.txt
+!khaos/khaos_original_11000.txt
