@@ -86,19 +86,11 @@ class Generator(nn.Module):
 def valid_length(domain):
     return len(domain) >= 3
 
-def valid_fqdn(domain):
-    if is_full_domain(domain):
-        return FQDN(domain).is_valid
-    return True
-
 def is_valid_domain(domain):
     domain_regex = re.compile(r"^(?!-)[A-Za-z0-9-]{1,63}(?<!-)$")
     
     return domain_regex.match(domain)
 
-def is_full_domain(domain):
-    extracted = tldextract.extract(domain)
-    return bool(extracted.domain) and bool(extracted.suffix)
 
 def remove_duplicates(input_list):
     return np.unique(input_list).tolist()
@@ -106,7 +98,7 @@ def remove_duplicates(input_list):
 def Domain_filter(domains):
     valid_domains = []
     for domain in domains:
-        if valid_length(domain) and valid_fqdn(domain):
+        if valid_length(domain) and is_valid_domain(domain):
             valid_domains.append(domain)
 
     unique_valid_domains = remove_duplicates(valid_domains)
