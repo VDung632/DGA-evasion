@@ -162,7 +162,6 @@ cython_debug/
 # Bỏ bớt các file không cần thiết
 pkdga/
 results/
-imgs/
 exp*.txt
 khaos/khaos*.txt
 RF/*.txt

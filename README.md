@@ -36,7 +36,13 @@ Sau khi huấn luyện xong, Generator sẽ được lưu vào file khaos_resnet
 python khaos/gen_sample.py
 ```
 
-Sau khi tạo xong, các tên miền sẽ được lưu trong file khaos_original_11000.txt
+### Chỉnh lại file Generator mong muốn bằng cách chỉnh dòng sau trong file thành tên file .trc đã được lưu trước đó
+
+```python
+  netG.load_state_dict(torch.load('./<my_model.trc>'))
+```
+
+Sau khi tạo xong, các tên miền sẽ được ghi đè lên file khaos_original_11000.txt
 
 ## Các nguồn tham khảo (bao gồm cả code lẫn tài liệu liên quan)
 
